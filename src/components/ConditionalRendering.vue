@@ -28,9 +28,7 @@
         </div>
         <button @click="loginTypeButton">Login Type</button>
       </div>
-      <!-- v-for cho object thì sẽ duyệt qua các thuộc tính 
-        của object đó  và giá trị tương ứng từng thuộc tính
-      nếu v-if và v-for trên 1 node, v-if sẽ được ưu tiên thực hiện-->
+      
       
       
     </div>
