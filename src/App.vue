@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <ConditionalRendering></ConditionalRendering>
+    <ListRendering></ListRendering>
   </div>
 </template>
 
 <script>
-import ConditionalRendering from './components/ConditionalRendering.vue'
+import ListRendering from './components/ListRendering.vue'
 
 export default {
   name: 'App',
   components: {
-    ConditionalRendering
+    ListRendering
   }
 }
 </script>
