@@ -1,7 +1,7 @@
 <template>
     <div class="TemplateSyntax">
       <!-- Text -->
-        <!--{{}}Trả về theo giá trị biến nắm bên trong  -->
+        <!--{{}}Trả về theo giá trị biến nắm bên trong.  -->
         <div>Xin chao {{message}}</div> 
         <!-- v-once lưu giá trị đầu tiên nhận vào và không thay đổi-->
         <div v-once>Xin chao {{message}}</div>

@@ -4,7 +4,7 @@
       <div class="binding-html">
         <!-- v-bind:class có thể truyền một đối tượng vào v-bind:class 
           và tùy thuộc vào giá trị từng thuộc tính của đối tượng 
-          mà các class khác nhau được gán vào
+          mà các class khác nhau được gán vào.
           -->
         <div class="text-title" :class="{active: isActive, hide: isHide, bold: isBold, show: isShow}">
             This is text

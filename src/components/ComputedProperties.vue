@@ -1,7 +1,7 @@
 <template>
     <div class="ComputedProperties">
       <!-- Khi gọi computed không được thêm dấu (), 
-        computed không nhận được tham số đầu vào -->
+        computed không nhận được tham số đầu vào. -->
         <div>{{ reverseMessage }}</div>
     </div>
   </template>
