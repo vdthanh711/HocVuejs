@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <ListRendering></ListRendering>
+    <LifecycleHooks></LifecycleHooks>
   </div>
 </template>
 
 <script>
-import ListRendering from './components/ListRendering.vue'
+import LifecycleHooks from './components/LifecycleHooks.vue'
 
 export default {
   name: 'App',
   components: {
-    ListRendering
+    LifecycleHooks
   }
 }
 </script>
